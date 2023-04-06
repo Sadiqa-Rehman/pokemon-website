@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* display: flex; */
+}
+.header {
+    background-color:rgb(179, 175, 175);
+    height: 10vh;
+    width: 100vw;
+    position: fixed;}
+  
+#href1:hover{
+    height: 10vh;
+    background-color: rgb(70, 69, 69);
+}
+#href2:hover{
+    background-color: rgb(219, 42, 42);
+    height: 10vh;
+}
+#href3:hover{
+    background-color: rgb(216, 89, 39);
+    height: 10vh;
+}
+#href4:hover{
+    background-color: rgb(221, 166, 15);
+    height: 10vh;
+}
+#href5:hover{
+    background-color: rgb(31, 228, 110);
+    height: 10vh;
+}
+#href6:hover{
+    background-color:rgb(142, 170, 247) ;
+    height: 10vh;
+}
+#href7:hover{
+    background-color:rgb(32, 91, 201);
+    height: 10vh;
+}    
+ul li a:hover{
+    color: rgba(211, 192, 192, 0.932);
+    text-decoration: none;
+}
+
+.header ul li {
+    display: inline-block ;
+    list-style-type: disc;
+    padding-inline-start: 40px;
+    line-height: 40px;
+  height: 11vh;
+  cursor: pointer;
+}
+.pokemoncardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.header li a {
+/* text-align: center; */
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    margin: 13px;
+    margin-top: 40pc;
+    font-weight: bolder;
+}
+.pokemoncard {
+    background-color:rgb(212, 125, 154);
+    width: 400px;
+    height: 31pc;
+    margin: 1%;
+}
+.pokemoncard:hover{
+    margin: 3px;
+    background-color: rgb(248, 63, 140);
+    cursor: pointer;
+}
+.para1{
+    padding: 21px;
+}
+.pokemoncard div h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: white;
+    text-align: center;
+   
+}    
+.pokemoncard div p{
+    color: rgb(128, 0, 60);
+    text-align: center;
+
+}
+.pokemoncard .para{
+    height: 900px;
+}
+.card1{
+    background-color:rgb(83, 81, 82);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card1 div h3 , .card2 div h3 , .card3 div h3 , .card4 div h3 , .card5 div h3 ,.card6 div h3 
+,.card7 div h3,.card8 div h3,.card9 div h3,.card10 div h3,.card11 div h3{
+    font-size: 137%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: #fff;
+}
+.card1:hover{
+    margin: 3px;
+    background-color: rgb(37, 35, 36);
+    cursor: pointer;
+
+}
+.card2{
+    background-color:rgb(224, 118, 56);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+    width: 89.12%;
+}
+.card2:hover{
+    margin: 3px;
+    background-color: rgb(240, 85, 29);
+    cursor: pointer;
+
+}
+.card3{
+    background-color:rgb(214, 120, 243);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card3:hover{
+    margin: 3px;
+    background-color: rgb(205, 29, 240);
+    cursor: pointer;
+
+}
+.card4{
+    background-color:rgb(234, 238, 10);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card4:hover{
+    margin: 3px;
+    background-color:rgb(255, 208, 0);
+    cursor: pointer;
+}
+.card5{
+    background-color:rgb(92, 58, 92);
+    width:400px ;
+    height:500px;
+    font-size: inherit;
+    margin: 1%;
+}
+.card5:hover{
+    margin: 3px;
+    background-color: rgb(66, 6, 66);
+    cursor: pointer;
+}
+.card6{
+    background-color:rgb(53, 53, 161);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card6:hover{
+    margin: 3px;
+    background-color:rgb(29, 29, 172) ;
+    cursor: pointer;
+
+}
+.card7{
+    background-color:grey;
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card7:hover{
+    margin: 3px;
+    background-color:rgb(56, 54, 54) ;
+    cursor: pointer;
+
+}
+.card8{
+    background-color:rgb(150, 112, 38);
+    width:400px ;
+    height:496px;
+    margin: 1%;
+}
+.card8:hover{
+    margin: 3px;
+    background-color:rgb(133, 89, 7) ;
+    cursor: pointer;
+
+}
+.new{
+    text-align: center; 
+    height: 10px;
+    width: 200px;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+.card9{
+    background-color:rgb(87, 83, 83);
+    width:400px ;
+    height:470px;
+    margin: 1%;
+}
+.card9:hover{
+    margin: 3px;
+    background-color:rgb(59, 58, 58) ;
+    cursor: pointer;
+
+}
+.card10{
+    background-color:rgb(219, 100, 100);
+    width:400px ;
+    height:470px;
+    margin: 1%;
+
+}
+.card10:hover{
+    margin: 3px;
+    background-color:rgb(175, 44, 44) ;
+    cursor: pointer;
+
+}
+.card11{
+    background-color:rgb(100, 219, 136);
+    width:400px ;
+    height:470px;
+    margin: 1%;
+    flex-wrap: wrap;
+
+
+}
+.card11:hover{
+    margin: 3px;
+    background-color:rgb(44, 175, 44) ;
+    cursor: pointer;
+
+}
+.container{
+    width: 900px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: black;
+
+}
+.container h2{
+    color:white;
+}
+.pokemoncardcontainer2{
+    color: #fff;
+}
+.one{
+    padding: 4pc;
+}
+.one li a{
+text-decoration: none;
+display: inline-block;
+color: #fff;
+margin: 1%;
+
+}
+
+hr{
+     display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+   
+}
+.logo1{
+    padding: 8px;
+}
+
+.pokemoncardcontainer2 div{
+    display:inline-block;
+}
+.twologo+.onelogo{
+    height: 31px;
+    width: 35px;
+   padding: 1px;
+   /* display: flex; */
+}
+
+.twologo ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.logotwo{
+    height: 31px;
+}
+.mainfooter{
+    color: #fff;
+}
+.footer{
+    padding: 4px;
+    margin-top: 2pc;
+}
+.onelogo ul li a:hover{
+    text-decoration: underline;
+}
+.mainfooter ul li a:hover{
+    text-decoration: underline;}
